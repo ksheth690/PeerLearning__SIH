@@ -1,0 +1,98 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    .content {
+        width: 86%;
+        display: flex;
+        flex-direction: row;
+
+        .left {
+            box-sizing: border-box;
+            width: 50%;
+            background-color: #ECF4FF;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 50px;
+
+            .heading {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 25px;
+
+                h1 {
+                    color: var(--primary);
+                }
+            }
+
+            p {
+                color: rgb(70, 69, 69);
+            }
+
+            hr {
+                margin: 25px 0 0;
+                width: 90%;
+                border: 2px solid var(--primary);
+                transform: rotate(0.23deg);
+            }
+
+            .login-form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+
+                .form-input {
+                    width: 100%;
+                    margin-top: 40px;
+                    background-color: white;
+                }
+
+                .alert {
+                    display: flex;
+                    justify-content: left;
+                    color: red;
+                    width: 100%;
+                    font-size: 16px;
+                }
+
+                .link-span {
+                    display: flex;
+                    justify-content: right;
+                    width: 100%;
+                    margin: 20px 0;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+                .button {
+                    height: 50px;
+                    width: 100%;
+                    color: white;
+                    background-color: var(--primary);
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+
+        }
+
+        .right {
+            width: 50%;
+            background-color: var(--primary);
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+    }
+}
