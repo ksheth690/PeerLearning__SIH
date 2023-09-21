@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 app.use(express.json());
+require('./controllers/db')
 const userRouter= require('./routes/user');
 const { json } = require('body-parser');
 

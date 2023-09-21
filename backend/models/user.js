@@ -8,6 +8,10 @@ module.exports = mongoose.model("user",userSchema=new mongoose.Schema({
         require:true,
         type: String
     },
+    password:{
+        require:true,
+        type: String
+    },
     mobile:{
         require:true,
         unique:true,
