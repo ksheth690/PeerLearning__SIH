@@ -35,6 +35,7 @@ const Login = () => {
                     <hr />
                     <form className='login-form' onSubmit={handleSubmit}>
                         <TextField className="form-input"
+                        // sx={{height:"6vh"}}
                             label="Email"
                             variant="outlined"
                             type='email'
@@ -46,6 +47,7 @@ const Login = () => {
                         />
                         {errors.email && touched.email ? (<span className='alert'>{errors.email}</span>) : null}
                         <TextField className="form-input"
+
                             label="Password"
                             type='password'
                             variant="outlined"

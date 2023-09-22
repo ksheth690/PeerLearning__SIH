@@ -1,4 +1,4 @@
-.login {
+.signup {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
             }
 
             hr {
-                margin: 25px 0 0;
+                margin: 0 0 0;
                 width: 90%;
                 border: 2px solid var(--primary);
                 transform: rotate(0.23deg);
